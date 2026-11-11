@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "onion-client",
+  "version": "${version}",
+  "name": "Onion DLC Client",
+  "description": "High-performance PvP client with glassmorphism UI.",
+  "authors": [
+    "Onion Team"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/onion-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.onion.client.OnionClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
